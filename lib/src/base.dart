@@ -11,7 +11,7 @@ final DynamicLibrary nativelib = Platform.isWindows
 
 final _nativeLib = NativeLibrary(nativelib);
 
-class mkcert{
+class mkcert {
   static void MkcertCmdLine(String args){
     _nativeLib.MkcertCommand(args.toNativeUtf8().cast<Int8>());
   }
