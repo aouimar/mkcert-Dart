@@ -1,4 +1,4 @@
-mkcert version Dart
+mkcert version Dart:
 - using it as command line argument for a dart function
 - the library is builded up from golang package after some changes on FiloSottile/mkcert to make it exportable
   at aouimar/mkcert
