@@ -4,3 +4,5 @@
 ffigen.yaml
 # Conventional directory for build output.
 build/
+# Directory for generated certificates
+cert/
